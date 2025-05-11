@@ -1,11 +1,11 @@
-# Solo Hunter: Drone‑Based Human Detection
+# Finding Lost Humans: Drone‑Based Human Detection
 
 **A Python toolkit for high‑recall detection of lost or camouflaged humans in wildlife imagery captured by drones**
 
 ---
 
 ## 🚀 Project Overview
-Solo Hunter provides an end‑to‑end pipeline to detect people in aerial images of dense forests, rocky terrain, and other challenging environments. Leveraging YOLOv8, tiling with overlap, test‑time augmentation (TTA), and custom post‑filtering, this project maximizes recall on tiny, camouflaged targets while suppressing false alarms from rocks, stumps, and foliage. The dataset can be found here but it is very limited to be shared openly: https://drive.google.com/drive/folders/1tmPlEg5DPaduGL592t3h6VYvDB79xn1p?usp=sharing 
+This project provides an end‑to‑end pipeline to detect people in aerial images of dense forests, rocky terrain, and other challenging environments. Leveraging YOLOv8, tiling with overlap, test‑time augmentation (TTA), and custom post‑filtering, this project maximizes recall on tiny, camouflaged targets while suppressing false alarms from rocks, stumps, and foliage. The dataset can be found here but it is very limited to be shared openly: https://drive.google.com/drive/folders/1tmPlEg5DPaduGL592t3h6VYvDB79xn1p?usp=sharing 
 
 Key innovations:
 - **Adaptive Tiling with Overlap**: 3×3 grid with 25% overlap ensures boundary objects aren’t missed.  
