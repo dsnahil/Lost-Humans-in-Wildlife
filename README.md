@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Project Overview
-This project provides an end‑to‑end pipeline to detect people in aerial images of dense forests, rocky terrain, and other challenging environments. Leveraging YOLOv8, tiling with overlap, test‑time augmentation (TTA), and custom post‑filtering, this project maximizes recall on tiny, camouflaged targets while suppressing false alarms from rocks, stumps, and foliage. The dataset can be found here but it is very limited to be shared openly: https://drive.google.com/drive/folders/1tmPlEg5DPaduGL592t3h6VYvDB79xn1p?usp=sharing 
+This project provides an end‑to‑end pipeline for detecting people in aerial images of dense forests, rocky terrain, and other challenging environments. Leveraging YOLOv8, tiling with overlap, test‑time augmentation (TTA), and custom post‑filtering maximizes recall on tiny, camouflaged targets while suppressing false alarms from rocks, stumps, and foliage. The dataset can be found here but it is very limited to be shared openly: https://drive.google.com/drive/folders/1tmPlEg5DPaduGL592t3h6VYvDB79xn1p?usp=sharing 
 
 Key innovations:
 - **Adaptive Tiling with Overlap**: 3×3 grid with 25% overlap ensures boundary objects aren’t missed.  
@@ -120,7 +120,7 @@ Adjust these to suit your GPU memory and desired precision/recall trade‑off.
 - **Recall** on tiny, camouflaged humans improves by > 20% compared to single‑shot detection.  
 - **Precision** maintained by filtering out rock/stump false positives.
 
-Some of the ouput images look like this:
+Some of the Ouput images look like this:
 
 ![image](https://github.com/user-attachments/assets/d6040d95-8b04-45f7-8f3e-ab43082061d0)
 
